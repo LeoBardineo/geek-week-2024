@@ -38,6 +38,21 @@ main {
     margin: 10px;
 }
 
+.wrapper .lower {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lower h2 {
+    position: absolute;
+    font-family: "Press Start 2P", system-ui;
+    color:white;
+    text-align: center;
+}
+
 .box + .box {
     margin-top: 20px;
 }
@@ -50,8 +65,14 @@ main {
     border: 5px solid #000;
 }
 
-.box button {
+.box .btn-link {
     font-family: "Press Start 2P", system-ui;
+    text-decoration: none;
+    color: white;
+    background-color: var(--laranja);
+    width: 346px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .upper {
@@ -66,7 +87,9 @@ main {
 
 .about {
     display: inline-block;
-    padding: 20px;
+    width: 320px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: var(--amarelo);
     border: 5px solid #000;
     text-align: center;
@@ -83,7 +106,7 @@ main {
     align-items: center;
 }
 
-.content > button + button {
+.content > .btn-link + .btn-link {
     margin-top: 50px;
 }
 

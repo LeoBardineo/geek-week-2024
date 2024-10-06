@@ -27,6 +27,8 @@ main {
 }
 
 .wrapper > h1 {
+    font-family: "Press Start 2P", system-ui;
+    color:white;
     text-align: center;
     margin: 10px;
 }
@@ -36,11 +38,15 @@ main {
 }
 
 .box {
+    font-family: "Silkscreen", system-ui;
     padding: 15px;
     background-color: var(--laranja);
     border: 5px solid #000;
 }
 
+.box button {
+    font-family: "Press Start 2P", system-ui;
+}
 .upper {
     display: flex;
     justify-content: space-between;
@@ -83,4 +89,10 @@ footer::before {
 footer {
     background-color: var(--azul);
     height: 80px;
+}
+
+.icone {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #0049ae;
 }

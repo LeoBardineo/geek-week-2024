@@ -19,11 +19,16 @@ main {
     padding: 20px 60px 60px 20px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 60px;
 }
 
 .wrapper {
     max-width: 900px;
+}
+
+.wrapper-aside {
+    max-width: 446px;
 }
 
 .wrapper > h1 {
@@ -39,6 +44,7 @@ main {
 
 .box {
     font-family: "Silkscreen", system-ui;
+    font-size: 20px;
     padding: 15px;
     background-color: var(--laranja);
     border: 5px solid #000;
@@ -47,9 +53,15 @@ main {
 .box button {
     font-family: "Press Start 2P", system-ui;
 }
+
 .upper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.upper img {
+    object-fit: contain;
 }
 
 .about {
@@ -57,6 +69,7 @@ main {
     padding: 20px;
     background-color: var(--amarelo);
     border: 5px solid #000;
+    text-align: center;
 }
 
 .content {
@@ -92,7 +105,7 @@ footer {
 }
 
 .icone {
-    min-width: 100px;
-    min-height: 100px;
-    background-color: #0049ae;
+    /* min-width: 100px;
+    min-height: 100px; */
+    /* background-color: #0049ae; */
 }

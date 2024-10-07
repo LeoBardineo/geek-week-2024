@@ -57,6 +57,9 @@ main {
     margin-top: 20px;
 }
 
+.box-about-size {
+    width: 808px;
+}
 .box {
     font-family: "Silkscreen", system-ui;
     font-size: 20px;
@@ -125,4 +128,19 @@ footer::before {
 footer {
     background-color: var(--azul);
     height: 80px;
+}
+
+.botao + .botao {
+    margin-top: 53px;
+}
+
+.gap-top-down {
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+.geekweek-width-100{
+    width: 820px;
+    margin-top: 63px;
+    margin-bottom: 42px;
 }

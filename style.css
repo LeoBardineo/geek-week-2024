@@ -99,7 +99,7 @@ main {
 }
 
 .box-about-size {
-    width: 808px;
+    max-width: 808px;
 }
 .box {
     font-family: "Silkscreen", system-ui;
@@ -189,4 +189,25 @@ footer {
     width: 820px;
     margin-top: 63px;
     margin-bottom: 42px;
+}
+
+.borda-amarela {
+    box-shadow: 
+    inset -4px 0px 1px 1px #ffc805,
+    inset 0px 4px 1px 1px #fff99d, 
+    inset 4px 0px 1px 1px #fff99d, 
+    inset 0px -4px 1px 1px #ffc805,
+
+    -4px 0px 1px 1px #f99800,
+    0px 4px 1px 1px #f99800, 
+    4px 0px 1px 1px #ffc976, 
+    0px -4px 1px 1px #ffc976;
+}
+
+.borda-laranja {
+    box-shadow: 
+    inset -4px 0px 1px 1px #f99800,
+    inset 0px 4px 1px 1px #ffc976, 
+    inset 4px 0px 1px 1px #ffc976, 
+    inset 0px -4px 1px 1px #f99800;
 }

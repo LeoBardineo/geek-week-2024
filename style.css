@@ -1,6 +1,6 @@
 :root{
     --laranja: #f5b551;
-    --amarelo: #ffff4a;
+    --amarelo: #f9ed32;
     --roxo: #a112e6;
     --azul: #0049ae;
     --borda-footer: #0058d2;
@@ -59,6 +59,9 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     gap: 60px;
+    background-image: url('images/background_body.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
@@ -145,6 +148,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.background-pontinho {
+    background-image: radial-gradient(#ffff4c 4px, var(--amarelo) 2px);
+    background-size: 14px 14px;
 }
 
 .content > .btn-link + .btn-link {

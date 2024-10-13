@@ -211,3 +211,24 @@ footer {
     inset 4px 0px 1px 1px #ffc976, 
     inset 0px -4px 1px 1px #f99800;
 }
+
+.clm {
+    float:left;
+}
+
+.displayflex{
+    display:flex;
+    align-items:self-start;
+}
+
+.godown{
+    margin-top: 6px;
+}
+
+.schedule-txt-color{
+    color: white
+}
+
+.displayteste {
+    display:inline
+}

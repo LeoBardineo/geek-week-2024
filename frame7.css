@@ -1,0 +1,27 @@
+.wrapper > h1 {
+    font-weight: bold;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 8px;
+    paint-order: stroke fill;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes img {
+    object-fit: contain;
+}
+
+.redes .about {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nucleos-wrapper{
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: var(--laranja);
+}

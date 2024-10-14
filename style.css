@@ -68,6 +68,30 @@ main {
     background-position: center;
 }
 
+main-schedule{
+    background-color: var(--roxo);
+    padding: 20px 60px 60px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px;
+    background-image: url('images/background_body.png');
+    background-size: cover;
+    background-position: center;
+}
+
+main-schedule-last-page{
+    background-color: var(--roxo);
+    padding: 20px 60px 60px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 99px;
+    background-image: url('images/background_body.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .wrapper {
     max-width: 900px;
 }
@@ -298,4 +322,28 @@ footer {
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.icone-seta-esquerda {
+    width: 200px;   /* Mantém a largura original */
+    height: 196px;  /* Mantém a altura original */
+    max-width: 100%; /* Garante que a imagem não extrapole o container */
+    display: block; /* Remove espaço extra ao redor da imagem */
+    margin-top: 330px;
+  }
+
+.icone-seta-direita {
+    width: 200px;   /* Mantém a largura original */
+    height: 196px;  /* Mantém a altura original */
+    max-width: 100%; /* Garante que a imagem não extrapole o container */
+    display: block; /* Remove espaço extra ao redor da imagem */
+    margin-top: 330px;
+}
+
+.no-gap{
+    gap: 0px;
+}
+
+.margin-top-empty{
+    margin-top: 160px;
 }

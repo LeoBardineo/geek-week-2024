@@ -138,16 +138,6 @@ main-schedule-last-page{
     border: 5px solid #000;
 }
 
-.box .btn-link {
-    font-family: "Press Start 2P", system-ui;
-    text-decoration: none;
-    color: white;
-    background-color: var(--laranja);
-    width: 346px;
-    text-align: center;
-    font-size: 30px;
-}
-
 .upper {
     display: flex;
     justify-content: space-between;

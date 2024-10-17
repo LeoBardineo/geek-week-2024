@@ -373,17 +373,6 @@ footer {
     
 }
 
-.btn-link:hover {
-    transform: translateY(-2px);
-    transition: transform 0.2s ease;
-}
-
-.btn-link:active {
-    transform: translateY(2px);
-    /* background-color: #d59244; */
-    transition: transform 0.2s ease;
-}
-
 .btn-link.text-stroke {
     font-size: 30px;
 }

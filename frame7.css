@@ -33,3 +33,20 @@
     max-width: 1300px;
     background-color: var(--laranja);
 }
+
+.main-title.nucleo-title {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.nucleos-wrapper > .btn-link {
+    margin-top: 0px;
+}
+
+.btn-link.btn-selecionado {
+    background-image: url('images/bg_btn_selecionado.png');
+}
+
+.wrapper-aside {
+    margin-top: 135px;
+}

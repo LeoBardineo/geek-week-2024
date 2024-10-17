@@ -40,24 +40,37 @@
     }
 
     .btn-link.text-stroke {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .gap-top-down {
-        margin: 0;
+        margin: 30px 0;
         width: 100%;
     }
 
     .main-title {
-        margin-top: 42px;
-        font-size: 24px;
+        margin: 30px 0;
+        font-size: 30px;
+        text-align: start;
     }
 
     .content {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .about {
         width: 100%;
+    }
+
+    .box.box-mobile {
+        display: block;
+    }
+
+    .wrapper-aside {
+        display: none;
+    }
+
+    .wrapper > .box.box-about-size {
+        display: none;
     }
 }

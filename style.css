@@ -393,3 +393,7 @@ footer {
     text-align: center;
     -webkit-text-stroke-width: 6px;
 }
+
+.box.box-mobile {
+    display: none;
+}

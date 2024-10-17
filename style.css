@@ -355,6 +355,7 @@ footer {
     width: 346px;
     height: 79px;
     display: block;
+    text-decoration: none;
 
     /* background-color: var(--laranja); */
     background-image: url('images/bg-btn.png');
@@ -375,4 +376,20 @@ footer {
 
 .btn-link.text-stroke {
     font-size: 30px;
+}
+
+.programacao-title {
+    color: white;
+    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    -webkit-text-stroke-width: 6px;
+}
+
+.icones-text {
+    color: white;
+    font-size: 15px;
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    -webkit-text-stroke-width: 6px;
 }

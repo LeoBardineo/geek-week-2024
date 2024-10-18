@@ -401,3 +401,15 @@ footer {
 .setinhas-wrapper {
     display: none;
 }
+
+.programacao-geekweek-title {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+}
+
+.vazio {
+    width: 200px;
+    height: 196px;
+}

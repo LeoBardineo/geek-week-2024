@@ -6,3 +6,69 @@
     margin-top: 30px;
     margin-bottom: 15px;
 }
+
+.icones-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1420px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    header {
+        height: 250px;
+    }
+
+    .setinhas-wrapper {
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .setinhas-wrapper img {
+        object-fit: contain;
+        width: 200px;
+    }
+
+    .setinha-dos-lados {
+        display: none;
+    }
+
+    .icones-wrapper {
+        font-size: 18px;
+    }
+
+    .vazio{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .main-schedule > h1 {
+        font-size: 30px;
+    }
+
+    .gravacao-btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .icones-wrapper {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .icones-wrapper {
+        font-size: 12px;
+    }
+}

@@ -1,5 +1,14 @@
 .main-schedule {
     gap: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-schedule > .display-flex.object-fit-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .main-schedule > h1 {
@@ -11,6 +20,11 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.setinha-dos-lados img {
+    object-fit: contain;
+    width: 100px;
 }
 
 @media only screen and (max-width: 1420px) {
@@ -31,11 +45,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 100px;
+        margin-top: 20px;
     }
 
     .setinhas-wrapper img {
         object-fit: contain;
-        width: 200px;
+        width: 100px;
     }
 
     .setinha-dos-lados {
@@ -69,31 +85,35 @@
 
 @media only screen and (max-width: 500px) {
     .icones-wrapper {
-        font-size: 12px;
-    }
-
-    .icones-wrapper img {
-        width: 30px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .icones-wrapper {
-        flex-direction: column;
         font-size: 16px;
+        flex-direction: column;
     }
 
     .icones-wrapper img {
         width: 34px;
     }
-
+    
     .gravacao-btn {
         display: block;
     }
 
+    .setinhas-wrapper {
+        gap: 50px;
+    }
+
+    .setinhas-wrapper img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .about {
         width: 100%;
         font-size: 14px;
+    }
+
+    .icones-wrapper {
+        font-size: 12px;
     }
 
     .box-about-size > div > img {

@@ -307,22 +307,6 @@ footer {
     gap: 5px;
 }
 
-.icone-seta-esquerda {
-    width: 200px;   /* Mantém a largura original */
-    height: 196px;  /* Mantém a altura original */
-    max-width: 100%; /* Garante que a imagem não extrapole o container */
-    display: block; /* Remove espaço extra ao redor da imagem */
-    margin-top: 330px;
-  }
-
-.icone-seta-direita {
-    width: 200px;   /* Mantém a largura original */
-    height: 196px;  /* Mantém a altura original */
-    max-width: 100%; /* Garante que a imagem não extrapole o container */
-    display: block; /* Remove espaço extra ao redor da imagem */
-    margin-top: 330px;
-}
-
 .no-gap{
     gap: 0px;
 }

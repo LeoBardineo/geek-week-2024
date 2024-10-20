@@ -26,15 +26,16 @@ main {
     width: 100px;
 }
 
+.aviso-zoom {
+    font-family: "Silkscreen", system-ui;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
 .medium-zoom-overlay,
 .medium-zoom-image--opened {
   z-index: 999;
-}
-
-.splide__slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .btn-slide {

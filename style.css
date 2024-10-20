@@ -397,3 +397,9 @@ footer {
     width: 200px;
     height: 196px;
 }
+
+@media only screen and (max-width: 1420px) {
+    header {
+        height: 250px;
+    }
+}
